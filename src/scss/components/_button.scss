@@ -1,0 +1,51 @@
+@import '../variables';
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  padding: 10px 10px;
+  margin: 5px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  border: none;
+  background-color: $blue;
+  color: $white;
+  border-radius: 10px;
+  transition: all .2s linear;
+  cursor: pointer;
+
+  &__auth {
+
+    margin: 2rem 0 1rem;
+    p {
+      color: $white;
+    }
+
+    &:hover {
+      background-color: darken($blue, 5%);
+    }
+
+  }
+
+  &__add {
+
+    &--conversation {
+
+      &:hover {
+        background-color: darken($blue, 5%);
+      }
+
+    }
+  }
+
+  &__chat {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+  }
+}

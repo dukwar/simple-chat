@@ -1,0 +1,143 @@
+{
+  "rooms": [
+    {
+      "id": "TeamChat",
+      "name": "Team Chat",
+      "avatar": "https://delovoymir.biz/res/images/uploaded/columns/7720.jpg"
+    },
+
+    {
+      "id": "FloodChat",
+      "name": "Flood Chat",
+      "avatar": "https://downloadwap.com/thumbs2/wallpapers/p2ls/2019/fun/45/s9x3z14113359549.jpg"
+    }
+  ],
+
+  "TeamChat" : {
+    "name": "Team Chat",
+    "avatar": "https://delovoymir.biz/res/images/uploaded/columns/7720.jpg",
+
+    "messages": [
+
+      {
+        "id": "3454567475476",
+        "name": "Mark",
+        "avatar": "https://sun9-45.userapi.com/impg/8XUvZ70YjOkn1I13kfmnfoQN-9tlxOQZk_QFoA/3IFUIRWY0Wg.jpg?size=750x750&quality=96&sign=afe1a7728e4c146c0ae9cb7b0a810a16&type=album",
+        "message": "What is flexbox?",
+        "files": []
+      },
+
+      {
+        "id": "43546745767",
+        "name": "Dmitriy",
+        "avatar": "https://sun9-60.userapi.com/impg/bLtJ7FCNjC7iLAklkm0CjH-IKMTzJBY2dnOn-g/i0WorYfOD3g.jpg?size=600x450&quality=96&sign=6822a1fc5ae985ff084a1057f78fbb02&type=album",
+        "message": "This is a new technology that already has fairly broad browser support. Flexbox provides the tools to quickly create complex, flexible layouts, and features that were difficult in traditional CSS techniques. This article explains all the basics of this technology.",
+        "files": []
+      },
+
+      {
+        "id": "546758765765",
+        "name": "Mark",
+        "avatar": "https://sun9-45.userapi.com/impg/8XUvZ70YjOkn1I13kfmnfoQN-9tlxOQZk_QFoA/3IFUIRWY0Wg.jpg?size=750x750&quality=96&sign=afe1a7728e4c146c0ae9cb7b0a810a16&type=album",
+        "message": "Really?",
+        "files": []
+      },
+
+      {
+        "id": "54376785567",
+        "name": "Dmitriy",
+        "avatar": "https://sun9-60.userapi.com/impg/bLtJ7FCNjC7iLAklkm0CjH-IKMTzJBY2dnOn-g/i0WorYfOD3g.jpg?size=600x450&quality=96&sign=6822a1fc5ae985ff084a1057f78fbb02&type=album",
+        "message": "For a long time, the only reliable CSS layout tools were floats and positioning. With their help, it is difficult or impossible to achieve the following simple layout requirements.",
+        "files": []
+      },
+
+      {
+        "id": "4352353265654",
+        "name": "Mark",
+        "avatar": "https://sun9-45.userapi.com/impg/8XUvZ70YjOkn1I13kfmnfoQN-9tlxOQZk_QFoA/3IFUIRWY0Wg.jpg?size=750x750&quality=96&sign=afe1a7728e4c146c0ae9cb7b0a810a16&type=album",
+        "message": "How does it work?",
+        "files": []
+      },
+
+      {
+        "id": "7898798709879",
+        "name": "Dmitriy",
+        "avatar": "https://sun9-60.userapi.com/impg/bLtJ7FCNjC7iLAklkm0CjH-IKMTzJBY2dnOn-g/i0WorYfOD3g.jpg?size=600x450&quality=96&sign=6822a1fc5ae985ff084a1057f78fbb02&type=album",
+        "message": "First, we need to choose which items should be laid out as flex boxes. To do this, we set a special display value in the parent element of the elements that you want to style. In our case, we want to position the <article> elements, so we set this value to the <section> (which becomes a flex container)...",
+        "files": []
+      },
+
+      {
+        "id": "45348798432435",
+        "name": "Mark",
+        "avatar": "https://sun9-45.userapi.com/impg/8XUvZ70YjOkn1I13kfmnfoQN-9tlxOQZk_QFoA/3IFUIRWY0Wg.jpg?size=750x750&quality=96&sign=afe1a7728e4c146c0ae9cb7b0a810a16&type=album",
+        "message": "Ok, Good, I get it, it sounds easy, I'll try it on my own.",
+        "files": []
+      },
+
+      {
+        "id": "9879874353465",
+        "name": "Marina",
+        "avatar": "https://vjoy.cc/wp-content/uploads/2021/02/77a7a150b7752ae3bf8a73c58d490881.jpg",
+        "message": "Mark, are you a fool? How were you hired at all ...",
+        "files": []
+      },
+
+      {
+        "id": "436657696874343",
+        "name": "Mark",
+        "avatar": "https://sun9-45.userapi.com/impg/8XUvZ70YjOkn1I13kfmnfoQN-9tlxOQZk_QFoA/3IFUIRWY0Wg.jpg?size=750x750&quality=96&sign=afe1a7728e4c146c0ae9cb7b0a810a16&type=album",
+        "message": "Marina, you are our HR)",
+        "files": []
+      }
+    ]
+  },
+
+  "FloodChat" : {
+    "name": "Flood Chat",
+    "avatar": "https://downloadwap.com/thumbs2/wallpapers/p2ls/2019/fun/45/s9x3z14113359549.jpg",
+
+    "messages": [
+
+      {
+        "id": "879875443437",
+        "name": "Mark",
+        "avatar": "https://sun9-45.userapi.com/impg/8XUvZ70YjOkn1I13kfmnfoQN-9tlxOQZk_QFoA/3IFUIRWY0Wg.jpg?size=750x750&quality=96&sign=afe1a7728e4c146c0ae9cb7b0a810a16&type=album",
+        "message": "Dima, why doesn't she love me?",
+        "files": []
+      },
+
+      {
+        "id": "878908876654",
+        "name": "Dmitriy",
+        "avatar": "https://sun9-60.userapi.com/impg/bLtJ7FCNjC7iLAklkm0CjH-IKMTzJBY2dnOn-g/i0WorYfOD3g.jpg?size=600x450&quality=96&sign=6822a1fc5ae985ff084a1057f78fbb02&type=album",
+        "message": "I don’t know, maybe because you said too much on your resume and now you can’t cope with your tasks?",
+        "files": []
+      },
+
+      {
+        "id": "9097543242355",
+        "name": "Mark",
+        "avatar": "https://sun9-45.userapi.com/impg/8XUvZ70YjOkn1I13kfmnfoQN-9tlxOQZk_QFoA/3IFUIRWY0Wg.jpg?size=750x750&quality=96&sign=afe1a7728e4c146c0ae9cb7b0a810a16&type=album",
+        "message": "What am I supposed to do??",
+        "files": []
+      },
+
+      {
+        "id": "346887965644",
+        "name": "Dmitriy",
+        "avatar": "https://sun9-60.userapi.com/impg/bLtJ7FCNjC7iLAklkm0CjH-IKMTzJBY2dnOn-g/i0WorYfOD3g.jpg?size=600x450&quality=96&sign=6822a1fc5ae985ff084a1057f78fbb02&type=album",
+        "message": "Do not worry) I will help you, just do not infuriate her in the future.",
+        "files": []
+      },
+
+      {
+        "id": "79897874553454577",
+        "name": "Arthur (Team Lead)",
+        "avatar": "https://sun9-12.userapi.com/impg/Uzc40NxQ7MXysDpHx0wmOK0UvPj18hs9q__amw/LikE1yOEv_M.jpg?size=1620x2160&quality=96&sign=49b533225fe63db3a97d3beee0dfee36&type=album",
+        "message": "Hey you sons, well march to work, stop talking!!!!",
+        "files": []
+      }
+    ]
+  }
+}

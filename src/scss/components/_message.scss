@@ -1,0 +1,147 @@
+@import '../variables';
+
+.message {
+  display: flex;
+  padding: 0 1rem;
+
+
+  &__wrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    cursor: pointer;
+    z-index: 1;
+
+    &.active {
+      background-color: $sub-border;
+    }
+
+    &:hover .message__actions {
+      opacity: 1;
+    }
+  }
+
+  &__img {
+    width: 50px;
+    height: 50px;
+
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  &__data {
+    padding: 1rem;
+    margin-left: 1.5rem;
+    border-radius: 20px;
+    background-color: $sub-border;
+
+    h4 {
+
+    }
+
+    p {
+      max-width: 700px;
+      word-wrap:break-word;
+      margin-top: 1rem;
+    }
+
+    &--current {
+      margin-left: 0;
+      margin-right: 1.5rem;
+    }
+  }
+
+  &__files {
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: center;
+    max-width: 700px;
+  }
+
+  &__pictures {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+    .image-file {
+      width: 200px;
+      max-height: 180px;
+      border-right: 5px solid $sub-border;
+      border-top: 5px solid $sub-border;
+
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .video-file {
+      width: 200px;
+      max-height: 180px;
+      border-right: 5px solid $sub-border;
+      border-top: 5px solid $sub-border;
+
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  &__music {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    .music-file {
+      min-width: 600px;
+      margin-bottom: 5px;
+
+      audio {
+        width: 100%;
+      }
+
+    }
+  }
+
+  &--current {
+    margin-left: auto;
+  }
+
+  &__actions {
+    display: none;
+    width: 24px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    opacity: 0;
+    transition: all .1s ease-in-out;
+
+    &.current {
+      display: block;
+    }
+
+  }
+
+  &__action {
+    width: 20px;
+    height: 20px;
+    fill: $main-border;
+    transition: all .2s linear;
+
+
+
+    &:hover {
+      fill: darken($main-border, 10%);
+    }
+  }
+}

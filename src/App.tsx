@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import SidebarContainer from "./Components/Sidebar/SidebarContainer";
+import HeaderContainer from "./Components/Header/HeaderContainer";
+import {useRoutes} from "./hooks/useRoutes";
+import {useTypesSelector} from "./hooks/useTypesSelector.hook";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const isAuth = useTypesSelector(({auth}) => auth.isAuth )
+    const routes = useRoutes(isAuth)
+
+
+    return (
+        <>
+            <HeaderContainer/>
+            <div className="wrapper">
+                <SidebarContainer/>
+                <div className="content">
+                    {routes}
+                </div>
+            </div>
+        </>
+    )
 }
 
 export default App;
