@@ -12,6 +12,7 @@ function ChatScrollToBottom() {
     const handleScrollToBottom = () => {
         const content = document.getElementById('chat-content')
         if (content) content.scrollTop = content.scrollHeight
+        setVisible(false)
     }
 
     const handleCheckScrollPos = (): void => {
