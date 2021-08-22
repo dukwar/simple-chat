@@ -8,12 +8,10 @@ export const useRoutes = (isAuthenticated: boolean) => {
     if (isAuthenticated) {
         return (
             <Switch>
-
-                <Route path='/chat' exact>
+                <Route path='/chat'>
                     <Home/>
                 </Route>
                 <Redirect to="/chat"/>
-
             </Switch>
         )
     }
@@ -21,7 +19,6 @@ export const useRoutes = (isAuthenticated: boolean) => {
 
     return (
         <Switch>
-
             <Route path='/' exact>
                 <Auth/>
             </Route>

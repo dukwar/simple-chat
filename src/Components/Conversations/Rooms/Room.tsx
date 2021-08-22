@@ -1,14 +1,15 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
+import {NavLink, useRouteMatch} from "react-router-dom";
 import {roomPropsType} from "./types";
 
 
 function Room({id, activeRoom, name, avatar}:roomPropsType) {
 
+    const {url} = useRouteMatch()
 
     return (
         <>
-            <NavLink to={'/chat/' + id}>
+            <NavLink to={`${url}/${id}`}>
                 <div className={name === activeRoom ? "room active" : "room"}>
                     <div className="room__img">
                         <img src={avatar} alt=""/>
